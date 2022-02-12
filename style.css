@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Comfortaa&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../BG.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+nav {
+    background: green;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 25px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    left: 0;
+    height: 3px;
+    bottom: -10px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+#logo {
+    margin-top: 80px;
+    height: 50vh;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+#tit {
+    font-family: lobster;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 20px;
+}
+
+#sub {
+    font-family: lobster;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.about {
+    background: linear-gradient(to left,black,#0f0);
+}
+
+#about {
+    color: white;
+    font-size: 100px;
+    font-family: lobster;
+}
+
+#des1 {
+    color: white;
+    font-size: 70px;
+    font-family: akaya telivigala;
+    padding-bottom: 500px;
+}
+
+.team {
+    background: linear-gradient(to left,black,#f00);
+}
+
+#team {
+    color: white;
+    font-size: 75px;
+    font-family: lobster;
+    padding-bottom: 20px;
+}
+
+.team img {
+    margin-left: 20vw;
+}
+
+#mem1, #mem2 {
+    color: white;
+    font-family: akaya telivigala;
+    font-size: 50px;
+
+}
+
+#shr {
+    height: 35vh;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
