@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.ibb.co/dJD5cKz/brain-lateral.png" type="image/x-icon">
+    <title>Brain</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&display=swap');
+        
+        * {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul  {
+            float: right;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-family: lobster;
+            font-size: 25px;
+            position: relative;
+        }
+
+        nav ul li a::after {
+            content: "";
+            position: absolute;
+            background-color: #0f0;
+            height: 3px;
+            left: 0;
+            bottom: -10px;
+            width: 0%;
+            transition: 0.3s;
+            border-radius: 30px;
+        }
+
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+
+        #logo {
+            height: 50vh;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        #ti {
+            color: #0f0;
+            font-family: lobster;
+            font-size: 50px;
+            text-align: center;
+            padding-top: 85vh;
+        }
+
+        #intro {
+            color: #0f0;
+            font-size: 50px;
+            font-family: lobster;
+        }
+
+        #definition {
+            color: #80e074;
+            font-size: 40px;
+            font-family: comfortaa;
+            padding-right: 10px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #4eff4e;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-track:hover {
+            background-color: #0f0;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #084400;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="brain.html">Home</a></li>
+            <li><a href="#intro">Brain</a></li>
+            <li><a href="p1.html">Cerebrum</a></li>
+            <li><a href="p2.html">Cerebellum</a></li>
+            <li><a href="p3.html">Medulla</a></li>
+        </ul>
+    </nav>
+    <center><img src="https://i.ibb.co/dJD5cKz/brain-lateral.png" id="logo"></center>
+    <h1 id="ti">Welcome To Team Slytherin's Project On The Brain!</h1>
+    <br><br><br>
+    <h1 id="intro">The Brain</h1><br><br>
+    <h1 id="definition">Our Brain is the most important organ in our body. It is protected by the skull. The brain controls everything that goes on in the body. It stores information and recalls when needed. The sensory nerves carry messages from the sensory organs to the brain. The orders from the brain are taken by the motor nerves to the parts of the body to carry out a response for this sensory input.</h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
