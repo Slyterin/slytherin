@@ -106,6 +106,7 @@ nav ul li a:hover::after {
 .team img {
     margin-left: 20vw;
     border: 2px solid #fff;
+    border-radius: 50%;
 }
 
 #mem1, #mem2 {
